@@ -135,10 +135,6 @@ class ViewController: UIViewController {
         runTextRecognition(with: imageView.image!)
     }
     
-    @IBAction func findTextCloudDidTouch(_ sender: UIButton) {
-        runCloudTextRecognition(with: imageView.image!)
-    }
-    
     @IBAction func findFaceContourDidTouch(_ sender: UIButton) {
         runFaceContourDetection(with: imageView.image!)
     }
@@ -186,16 +182,6 @@ class ViewController: UIViewController {
                 }
             }
         }
-    }
-    
-    // MARK: Cloud Text Recognition
-    
-    func runCloudTextRecognition(with image: UIImage) {
-        
-    }
-    
-    func processResult(from text: VisionDocumentText?, error: Error?) {
-        
     }
     
     // MARK: Face Contour Detection
@@ -525,10 +511,10 @@ fileprivate enum Constants {
     static let modelElementType: ModelElementType = .uInt8
     
     static let images = [
-        ImageDisplay(file: "Please_walk_on_the_grass.jpg", name: "Image 1"),
-        ImageDisplay(file: "non-latin.jpg", name: "Image 2"),
-        ImageDisplay(file: "nl2.jpg", name: "Image 3"),
-        ImageDisplay(file: "grace_hopper.jpg", name: "Image 4"),
+        ImageDisplay(file: "quote.png", name: "Image 1"),
+        ImageDisplay(file: "localhost.jpg", name: "Image 2"),
+        ImageDisplay(file: "joke.jpg", name: "Image 3"),
+        ImageDisplay(file: "steve.jpg", name: "Image 4"),
         ImageDisplay(file: "tennis.jpg", name: "Image 5"),
         ImageDisplay(file: "mountain.jpg", name: "Image 6"),
     ]

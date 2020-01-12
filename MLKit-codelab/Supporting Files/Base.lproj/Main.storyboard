@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="419" width="375" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vMp-oE-vJv">
-                                        <rect key="frame" x="0.0" y="0.0" width="82" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="114.5" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Find Text"/>
                                         <connections>
@@ -31,23 +31,15 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="kms-AF-w9I">
-                                        <rect key="frame" x="98" y="0.0" width="81.5" height="60"/>
+                                        <rect key="frame" x="130.5" y="0.0" width="114" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Find Face Contour"/>
                                         <connections>
                                             <action selector="findFaceContourDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ber-QW-6ab"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="UTd-oy-6hv">
-                                        <rect key="frame" x="195.5" y="0.0" width="82" height="60"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <state key="normal" title="Find Text (Cloud)"/>
-                                        <connections>
-                                            <action selector="findTextCloudDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qpJ-1E-3Er"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZjO-hA-PbB">
-                                        <rect key="frame" x="293.5" y="0.0" width="81.5" height="60"/>
+                                        <rect key="frame" x="260.5" y="0.0" width="114.5" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Find Objects"/>
                                         <connections>
@@ -59,7 +51,7 @@
                                     <constraint firstAttribute="height" constant="60" id="ED8-FQ-CxU"/>
                                 </constraints>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Please_walk_on_the_grass.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="grM-at-suJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quote.png" translatesAutoresizingMaskIntoConstraints="NO" id="grM-at-suJ">
                                 <rect key="frame" x="0.0" y="44" width="375" height="375"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="grM-at-suJ" secondAttribute="height" multiplier="1:1" id="5WL-S8-lmZ"/>
@@ -111,6 +103,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Please_walk_on_the_grass.jpg" width="640" height="437"/>
+        <image name="quote.png" width="1024" height="636"/>
     </resources>
 </document>

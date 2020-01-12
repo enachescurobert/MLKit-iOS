@@ -22,6 +22,10 @@
 		BB70D4E3209CF98500743DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB70D4E1209CF98500743DA7 /* Main.storyboard */; };
 		BB70D4E5209CF98500743DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB70D4E4209CF98500743DA7 /* Assets.xcassets */; };
 		BB70D4E8209CF98500743DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB70D4E6209CF98500743DA7 /* LaunchScreen.storyboard */; };
+		F6B37B6423CB63FD005D3591 /* localhost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6B37B6323CB63FD005D3591 /* localhost.jpg */; };
+		F6B37B6623CB6409005D3591 /* quote.png in Resources */ = {isa = PBXBuildFile; fileRef = F6B37B6523CB6409005D3591 /* quote.png */; };
+		F6B37B6823CB654B005D3591 /* joke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6B37B6723CB654B005D3591 /* joke.jpg */; };
+		F6B37B6C23CB667D005D3591 /* steve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6B37B6B23CB667D005D3591 /* steve.jpg */; };
 		F6C9F5C023CAA47A00C3A328 /* mobilenet_v1_1.0_224_quant.tflite in Resources */ = {isa = PBXBuildFile; fileRef = F6C9F5BF23CAA47A00C3A328 /* mobilenet_v1_1.0_224_quant.tflite */; };
 		F6C9F5C223CAA4F100C3A328 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6C9F5C123CAA4F100C3A328 /* GoogleService-Info.plist */; };
 		F6D982ED23CA97540094B6D4 /* Pods_MLKit_codelab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E57277C00ECEFE838F3619 /* Pods_MLKit_codelab.framework */; };
@@ -63,6 +67,10 @@
 		BB70D4E4209CF98500743DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB70D4E7209CF98500743DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB70D4E9209CF98500743DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B37B6323CB63FD005D3591 /* localhost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = localhost.jpg; sourceTree = "<group>"; };
+		F6B37B6523CB6409005D3591 /* quote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quote.png; sourceTree = "<group>"; };
+		F6B37B6723CB654B005D3591 /* joke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joke.jpg; sourceTree = "<group>"; };
+		F6B37B6B23CB667D005D3591 /* steve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steve.jpg; sourceTree = "<group>"; };
 		F6C9F5BF23CAA47A00C3A328 /* mobilenet_v1_1.0_224_quant.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = mobilenet_v1_1.0_224_quant.tflite; path = ../../../../../mobilenet_v1_1.0_224_quant/mobilenet_v1_1.0_224_quant.tflite; sourceTree = "<group>"; };
 		F6C9F5C123CAA4F100C3A328 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,8 +91,12 @@
 			isa = PBXGroup;
 			children = (
 				F6C9F5BF23CAA47A00C3A328 /* mobilenet_v1_1.0_224_quant.tflite */,
+				F6B37B6B23CB667D005D3591 /* steve.jpg */,
+				F6B37B6323CB63FD005D3591 /* localhost.jpg */,
 				10642C6A217BFAC700D3F8EC /* nl2.jpg */,
 				10642C6B217BFAC700D3F8EC /* tennis.jpg */,
+				F6B37B6723CB654B005D3591 /* joke.jpg */,
+				F6B37B6523CB6409005D3591 /* quote.png */,
 				10642C6C217BFAC700D3F8EC /* labels.txt */,
 				10642C6D217BFAC700D3F8EC /* mountain.jpg */,
 				10642C6E217BFAC700D3F8EC /* mobilenet_v1.0_224_quant.tflite */,
@@ -219,15 +231,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B37B6823CB654B005D3591 /* joke.jpg in Resources */,
 				F6C9F5C223CAA4F100C3A328 /* GoogleService-Info.plist in Resources */,
+				F6B37B6423CB63FD005D3591 /* localhost.jpg in Resources */,
 				10642C77217BFAC700D3F8EC /* Please_walk_on_the_grass.jpg in Resources */,
 				10642C73217BFAC700D3F8EC /* tennis.jpg in Resources */,
 				10642C72217BFAC700D3F8EC /* nl2.jpg in Resources */,
 				F6C9F5C023CAA47A00C3A328 /* mobilenet_v1_1.0_224_quant.tflite in Resources */,
 				BB70D4E8209CF98500743DA7 /* LaunchScreen.storyboard in Resources */,
 				10642C78217BFAC700D3F8EC /* non-latin.jpg in Resources */,
+				F6B37B6623CB6409005D3591 /* quote.png in Resources */,
 				10642C79217BFAC700D3F8EC /* grace_hopper.jpg in Resources */,
 				BB70D4E5209CF98500743DA7 /* Assets.xcassets in Resources */,
+				F6B37B6C23CB667D005D3591 /* steve.jpg in Resources */,
 				10642C76217BFAC700D3F8EC /* mobilenet_v1.0_224_quant.tflite in Resources */,
 				10642C74217BFAC700D3F8EC /* labels.txt in Resources */,
 				10642C75217BFAC700D3F8EC /* mountain.jpg in Resources */,
